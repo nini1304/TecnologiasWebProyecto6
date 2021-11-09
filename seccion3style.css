@@ -1,0 +1,35 @@
+@font-face{    
+    font-family: 'tecno';    
+    src: url(/assets/fuentes/cubic.ttf) format('truetype');    
+    font-weight: normal;   
+    font-style: normal;}
+
+#to{
+    margin-top: 50px;
+    margin-left: 500px;
+    color: #4F98CA;
+    font-family: tecno;
+}
+#seccion1{
+    margin-top: 100px;
+   
+}
+#boton{
+    background-color: #50D890;
+    border-color: #50D890;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+#columna1{
+    background-image: url(/assets/imagenes/wallpaperr.png);
+}
+#columna2{
+    background-image: url(/assets/imagenes/wallpaperr.png);
+}
+#texto{
+    color: #EFFFFB;
+}
+#titulo2{
+    color: #EFFFFB;
+    margin-top: 80px;
+}
