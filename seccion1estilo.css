@@ -1,0 +1,51 @@
+#imagen1{
+    height: 700px;
+}
+#imagen2{
+    height: 700px;
+}
+#imagen3{
+    height: 700px;
+}
+#imagen4{
+    height: 200px;
+    border-radius: 20px;
+}
+#imagen5{
+    height: 200px;
+    border-radius: 20px;
+}
+@font-face{    
+    font-family: 'tecno';    
+    src: url(/assets/fuentes/cubic.ttf) format('truetype');    
+    font-weight: normal;   
+    font-style: normal;}
+
+#titulo{
+    font-family: tecno;
+    color: #4F98CA;
+   
+    margin-left: 100px;
+   
+   
+}
+#seccion2{
+    margin-top: 50px;
+}
+#seccion3{
+    margin-top: 50px;
+}
+#card1{
+    background-image: url(/assets/imagenes/wallpaper.png);
+    border-radius: 50px;
+}
+#texto1{
+    color: #EFFFFB;
+}
+#card2{
+    background-image: url(/assets/imagenes/wallpaper.png);
+    border-radius: 50px;
+}
+#texto2{
+    color: #EFFFFB;
+}
