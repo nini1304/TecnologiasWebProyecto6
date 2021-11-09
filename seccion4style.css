@@ -1,0 +1,23 @@
+#seccion1{
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url(/assets/imagenes/wallpaperr.png);
+    border-radius: 40px;
+}
+#parte1{
+    margin-left: 20px;
+
+}
+#parte3{
+    margin-right: 20px;
+}
+#texto{
+    color: #EFFFFB;
+}
+#boton{
+    background-color: #50D890;
+    border-color: #50D890;
+    margin-left: 150px;
+    
+}
