@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" [href]="sanitizer.bypassSecurityTrustResourceUrl(cssUrl)"> 
+
+    <title>Home</title>
+  </head>
+  <body id="todo">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/assets/imagenes/iphone13.png" class="d-block w-100" id="imagen1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Iphone 13</h2>
+              <p>Diseñado con una arquitectura completamente nueva y girando los lentes 45 grados. De esta manera, se pudo incluir el sistema de dos cámaras más avanzado y un sensor de cámara gran angular más grande. Además, se hizo lugar para la estabilización óptica de imagen por desplazamiento de sensor. Y se equipo la cámara ultra gran angular con un sensor más rápido.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/assets/imagenes/zflip3.png" class="d-block w-100" id="imagen2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Z Flip3</h2>
+              <p>Se pliega en tu bolsillo. Se mete en tu cartera. Se desliza dentro de tus jeans más ceñidos. Luego, puedes sacarlo y se despliega en un teléfono inteligente 5G con pantalla completa que se dobla a tus ángulos favoritos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/imagenes/note200.png" class="d-block w-100" id="imagen3" >
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Note 20</h2>
+              <p>El Note es el primer dispositivo en combinar un lápiz con un teléfono y te permite descubrir un mundo totalmente nuevo en tu bolsillo. A medida que nos adentramos en una nueva normalidad, la vida exige un nuevo tipo de dispositivo. Este no es un teléfono inteligente como los que conoces. Es una computadora que podrás llevar en el bolsillo. Es capacidad de juego de otro nivel en tu teléfono. Es una cámara con calidad profesional de 8K y un paquete de edición.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="seccion2">
+      <h1 id="titulo">QUERIDO CLIENTE LE PRESENTAMOS LAS MARCAS CON LAS QUE TRABAJAMOS</h1>
+    </section>
+
+    <section id="seccion3">
+      <div class="row justify-content-around">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;" id="card1">
+            <img src="/assets/imagenes/samsung.png" class="card-img-top" id="imagen4">
+            
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;" id="card2">
+            <img src="/assets/imagenes/apple.png" class="card-img-top" id="imagen5">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
