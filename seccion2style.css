@@ -1,0 +1,51 @@
+#imagen{
+    
+    height: 500px;
+    width: 1320px;
+    
+}
+#imagen1{
+    
+    height: 600px;
+    width: 1281px;
+    
+}
+#seccion2{
+    margin-top: 50px;
+}
+#seccion3{
+    margin-top: 50px;
+}
+#seccion5{
+    margin-top: 50px;
+}
+#seccion6{
+    margin-top: 50px;
+}
+#card1{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card2{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card3{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card4{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card5{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card6{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card7{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#card8{
+    background-image: url(/assets/imagenes/wallpaper.png);
+}
+#texto{
+    color: #EFFFFB;
+}
